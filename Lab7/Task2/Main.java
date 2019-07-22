@@ -2,10 +2,10 @@ class Main
 {
 	public static void main(String []abcd)
 	{
-		Student s=new Student("Sameer","tdm","SW",18,945000.00);
+		Student s=new Student("Ali Ahmed","hyd","SW",18,32000.00);
 		s.setProgram("SW");
 		s.setYear(18);
-		s.setFee(945000.00);
+		s.setFee(32000.00);
 		System.out.println("Program:"+s.getProgram());
 		System.out.println("Year:"+s.getYear());
 		System.out.println("Fee:"+s.getFee());
